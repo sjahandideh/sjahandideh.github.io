@@ -1,0 +1,15 @@
+# Site settings
+title: Liloo on the move
+email: shamim.jahandideh@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Liloo is on the move. She is traveling to meet new places,
+  new people and find out about their history and customes.
+  
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lilooonthemove.com" # the base hostname & protocol for your site
+twitter_username: shamim_j
+github_username:  sjahandideh
+timezone: Australia/Sydney
+
+# Build settings
+markdown: kramdown
