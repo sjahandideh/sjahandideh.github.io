@@ -1,15 +1,19 @@
 # Site settings
-title: Liloo on the move
-email: shamim.jahandideh@gmail.com
+title: Shamim's Portfolio
 description: > # this means to ignore newlines until "baseurl:"
-  Liloo is on the move. She is traveling to meet new places,
-  new people and find out about their history and customes.
-  
+  Hi! My name is Shamim. I'm a web developer with a post-graduate degree
+  in Computer Science. I write web applications mostly using Ruby on Rails
+  and modern single-page application javascript frameworks such as Angularjs
+  and Backbonejs.
+  I love to work with fun and modest, yet knowledgable people and I strongly
+  believe in creating things that make our world a better place for everybody.
+
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://lilooonthemove.com" # the base hostname & protocol for your site
-twitter_username: shamim_j
-github_username:  sjahandideh
+url: "http://sjahandideh.com" # the base hostname & protocol for your site
+twitter_username:   shamim_j
+github_username:    sjahandideh
+linkedln_username:  shamimjahandideh
 timezone: Australia/Sydney
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet

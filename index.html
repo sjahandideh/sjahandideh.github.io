@@ -2,22 +2,21 @@
 layout: default
 ---
 
-<div class="home">
+<div class="row">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="col-md-3 col-xs-2">
+    <img src="/assets/shamim.jpg" alt="Shamim" class="img-circle"/>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="col-md-9 col-xs-8">
+    <p class="text text-justify">{{ site.description }}</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <p>
+      <a href="/cv">Here is my full Resume</a>
+    </p>
+    <p>
+      <a href="https://vimeo.com/113046082">My talk on Threads in Ruby</a>
+    </p>
+  </div>
 
 </div>
