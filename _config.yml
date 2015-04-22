@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   in Computer Science. I write web applications mostly using Ruby on Rails
   and modern single-page application javascript frameworks such as Angularjs
   and Backbonejs.
-  I love to work with fun and modest, yet knowledgable people and I strongly
+  I love to work with fun and modest, yet knowledgeable people and I strongly
   believe in creating things that make our world a better place for everybody.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
