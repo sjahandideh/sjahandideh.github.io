@@ -24,6 +24,7 @@ ones that we may miss. I'm going to categorise tools into the following:
   * Database interactions
   * Formatting
   * Testing
+  * Refactoring and Performance
 
 ##Convert UX design into a page##
 
@@ -76,6 +77,9 @@ This Chrome extension logs all AJAX (XMLHttpRequest) activity to Chrome's Develo
 An application that lets you construct requests quickly, save them for later use and analyze the responses sent by the API. Postman can dramatically cut down the time required to test and develop APIs. It also has a test editor that is not free. 👍
 
 ####[DHC - REST/HTTP API Client](https://chrome.google.com/webstore/detail/dhc-resthttp-api-client/aejoelaoggembcahagimdiliamlcdmfm)####
+This Chrome extension is an alternative to postman. It provides many of
+same features for API interactions.
+
 ##Database interactions##
 
 ####[Chrome MySQL Admin](https://chrome.google.com/webstore/detail/chrome-mysql-admin/ndgnpnpakfcdjmpgmcaknimfgcldechn)####
@@ -93,6 +97,29 @@ Opens a JSON file in a readable manner. 👍
 ####[Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=en)####
 This Chrome extension allows you to fill all form inputs (textboxes, textareas, radio buttons, dropdowns, etc.) with random/dummy data. 👍
 
+##Refactoring and Performance##
+
+####[Traceroute gem](https://github.com/amatsuda/traceroute)####
+This ruby gem provides a rake task that you can run on your Rails app
+and get a list of all unused routes. It's pretty helpful when you need
+to cleanup a legacy Rails application that has been refactored serveral times by
+different developers!. 👍
+
+####[Bullet gem](https://github.com/flyerhzm/bullet)####
+This ruby gem detects N+1 queries, eager-loaded associations and
+unnecessary COUNT queries in your application and gives tips on how to kill them.
+
+####[RuboCop](https://github.com/bbatsov/rubocop#cops)####
+This ruby gem is a Ruby static code analyser. It enforces guidelines and
+stlyes outlined in [Ruby style guide](https://github.com/bbatsov/ruby-style-guide). However, it also lets you tweak most of those guidelines and customise them.
+
+
+####[rack-mini-profiler gem](https://github.com/MiniProfiler/rack-mini-profiler)####
+This ruby gem is a middleware that displays speed profile for every
+html page. It shows the response time in details of Database queries, DOM rendering and etc.
+
+
 ##Resources##
 
+[top 8 tools for Ruby on Rails code optimization and cleanup](https://infinum.co/the-capsized-eight/articles/top-8-tools-for-ruby-on-rails-code-optimization-and-cleanup)
 [handy chrome extensions and apps](http://tutorialzine.com/2015/06/35-handy-chrome-extensions-and-apps-for-developers/)
