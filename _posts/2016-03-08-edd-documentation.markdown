@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stupidity driven programming"
+title: "Empathy Driven Programming - Documentation"
 date:  "2016-03-08 00:00 UTC"
 tags: Documentation
 ---
