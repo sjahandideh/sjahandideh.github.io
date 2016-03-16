@@ -5,45 +5,90 @@ date:  "2016-03-08 00:00 UTC"
 tags: Documentation
 ---
 
-A while a go, I gave this lightning talk about "Programming for a stupid
-person".
-yea, I can create abbriviations too!
-I don't think that talk went very well and the reason was I couldn't
-truely convey what I meant by that. However, this topic has been on my
-mind for a long time and I finally found a way to describe what I mean
+##Background##
+
+A while a go, I gave this lightning talk about "Programming for a less
+intelligent person". I don't think that talk went very well and the reason was that I couldn't
+truely convey what I meant by that and the title was a bit mean. However, this topic has been on my
+mind for a long time and I finally found a better way to describe what I mean
 by it.
 
 You see, I have been a programmer of some years and I've been coding in
-Ruby for more than five years now but I mostly worked on private code
-bases that belonged to a company and not opensource. And I'm also not a quick fixer kind of person, so I don't enjoy working as a contractor for a short time in a new-born
-startup either. That leaves me to be the person who maintains, refactors
-and cleans up other people's good and bad design decisions. The person
-who quietly sends you love for creating simple, readable code or curses
-for creating unnecessary complications for a simple problem.
-One thing you should know about me though is that I may not be as smart as
-you are! I'm a person whith average IQ and average knowledge of
-programming and design patterns.
-Regardless of this person being a literal or conceptual example of
+Ruby for more than five years now but I have mostly worked on private code
+bases that belonged to a company and not opensource.
+I have been the person who maintains, refactors and cleans up other people's
+good and bad design decisions. The person who quietly sends you love for
+creating simple, readable code or curses for creating unnecessary complications for a simple problem.
+
+One thing you should know about me though is I have an average IQ and an average knowledge of
+programming and design patterns. Regardless of this person being a literal or conceptual example of
 myself, this is most likely the person who is going to read and maintain
-your code unless you sign a contract that let them kill your puppy(or
+your code and not yourself. unless of course, you sign a contract that lets the employer kill your puppy(or
 kitten) if you resign!
 
-So, ....  I invented SDP. "What does that stand for?" you ask.
-Well, SDP stands for "Stupidity Driven Programming". Now, I'm pretty
-sure there are many nicer hipster alternatives to that phrase but since I'm a non-native english speaker, we stick with it! I invented it and I call it whatever I want, so just shut your brain up
-and keep reading.
+So, I started thinking about the consept of programming for someone
+else. Somebody who is figuratively less intelligent than you are. Now,
+this does not mean that the next person is actually less intelligent or
+less knowledgable, it only means that you try to come up with simple
+designs and be very descriptive when you write a piece of code.
+
+My plan is to create a series of blog posts that focus on each aspects
+of coding with empathy which means coding with care about others who are
+going to read, learn, maintain or use our code.
+Documentation is the first in this series. I hope you enjoy it and help
+me spread care and empathy to this amazing comunity and even further.
+
+#Documentation#
+
+Everybody hates documentation, right? it's time consuming, easily
+becomes out of date and it does not have a real value.
+To be honest with you, I agree with the statement above in some
+circumstances. The truth is, documentation is only a way of
+communication and does not bring any obvious values unless you know
+exactly what they are!
 
 ##The problem##
 
-- big source codes, losts of local gems, lots of local apps
-- private repos, not opensource. but the same problem still exists.
-- should ask a lot of people what they really meant by sth at the time.
-  if i can still find that person of course
-- deprecated things get lost and never really get deprecated. people
-  could still use methods, services that meant to be deprecated.
-- different people solve same problems over and over again because it's not clear that somebody else has solved it before.
-- deployed code can use different versions of each local gem. very
-  difficult to debug problems that happen in production.
+I once asked myself this question that why do opensource libraries have
+more or less a set of maintained documentation whereas organisational
+code bases don't usually have any. The answer is pretty obvious if you
+think about it: "Unlike organisation employees, opensource contributers don't have the luxury of
+face-to-face communication with their users and other contributers."
+If you create a new opensource library, you must be online all the time
+and you must be describing the same things over and over again for every
+user and everybody who wants to help you with your codebase. So,
+basically you have no choice but to have at least some sort of readme,
+example or public interface documentation to communicate what your
+library is doing and how to interact with it.
+
+We often forget about this in private sectors. what happens is that
+somebody decides to create a startup. the first step would be to create
+an MVP (Minimal Viable Product) in the least time you can get. this
+often means really bad and quick design decisions as well as no
+documentaions. And it works because at that point we don't really care
+about communication! that is somewhere in the path to future.
+After the startup is grown, we start thinking about refactoring and
+improving parts of the codebase but again documentation is usually the
+last thing on the list.
+
+Now, if you have any of the following problems with your current
+codebase, in the next section I will describe how documentation could
+actually improve your day to day work experiences:
+
+1- Does your organisation have a big source codes with losts of local gems and lots of local apps?
+2- Do you often need to find and ask others what a piece of code is
+doing or where a peice of functionality lives in the codebase?
+3- Have you ever found a peice of code that nobody knows what it really
+is doing because the owner is no longer with the company as well?
+4- Have you ever used a piece of code that was meant to be deprecated
+without you knowing about it?
+5- Have you ever solved the same problem that your colleagues have
+solved before? ( this, you may or you may not know about! )
+6- Have you ever found debugging production difficult due to different versions of local gems and apps?
+
+If your answer to all or some of the questions above is yes, I have a
+good news for you: Proper documentation can definitely make a big
+improvement.
 
 ##How can this help me##
 
