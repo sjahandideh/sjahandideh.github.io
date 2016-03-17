@@ -42,55 +42,47 @@ me spread care and empathy to this amazing comunity and even further.
 
 Everybody hates documentation, right? it's time consuming, easily
 becomes out of date and it does not have a real value.
-To be honest with you, I agree with the statement above in some
+To be honest with you, I agree with this statement in some
 circumstances. The truth is, documentation is only a way of
 communication and does not bring any obvious values unless you know
 exactly what they are!
+Let's review together what problems it can solve and how.
 
 ##The problem##
 
-I once asked myself this question that why do opensource libraries have
+I once asked myself why is it that opensource libraries have
 more or less a set of maintained documentation whereas organisational
 code bases don't usually have any. The answer is pretty obvious if you
 think about it: "Unlike organisation employees, opensource contributers don't have the luxury of
 face-to-face communication with their users and other contributers."
 If you create a new opensource library, you must be online all the time
 and you must be describing the same things over and over again for every
-user and everybody who wants to help you with your codebase. So,
-basically you have no choice but to have at least some sort of readme,
-example or public interface documentation to communicate what your
-library is doing and how to interact with it.
+user of your library and everybody who wants to help you with it. So,
+basically you have no choice but to have at least some sort of Readme file,
+Example or a public interface documentation to communicate what your
+library is doing and how to interact with it. You also need to regularly maintain it so it does not go out of date with new versions.
 
-We often forget about this in private sectors. what happens is that
-somebody decides to create a startup. the first step would be to create
+We often forget about this in private sectors. what usually happens is that
+somebody decides to build a startup. the first step would be to create
 an MVP (Minimal Viable Product) in the least time you can get. this
 often means really bad and quick design decisions as well as no
 documentaions. And it works because at that point we don't really care
-about communication! that is somewhere in the path to future.
-After the startup is grown, we start thinking about refactoring and
-improving parts of the codebase but again documentation is usually the
-last thing on the list.
+about communication or even design decisions! we only need to sell our idea at that stage.
+But after the startup is grown and company hires more new developers and loose old ones, we start thinking about refactoring and
+improving parts of the codebase and that's where documentation comes in handy. We need some sort of communication with our future selves as well as our present and future colleagues.
 
-Now, if you have any of the following problems with your current
-codebase, in the next section I will describe how documentation could
-actually improve your day to day work experiences:
+Here is a list of situations and problems that really beg for proper documentation:
 
-1- Does your organisation have a big source codes with losts of local gems and lots of local apps?
-2- Do you often need to find and ask others what a piece of code is
-doing or where a peice of functionality lives in the codebase?
-3- Have you ever found a peice of code that nobody knows what it really
-is doing because the owner is no longer with the company as well?
-4- Have you ever used a piece of code that was meant to be deprecated
-without you knowing about it?
-5- Have you ever solved the same problem that your colleagues have
-solved before? ( this, you may or you may not know about! )
-6- Have you ever found debugging production difficult due to different versions of local gems and apps?
+1- When your organisation have a big source codes with losts of local gems and lots of local apps
+2- When you often need to find and ask others what a piece of code is doing or where a peice of functionality lives in the codebase
+3- When you sometimes find a peice of code that nobody knows what it is really doing because the owner is no longer with the company
+4- When you use a piece of code that was meant to be deprecated without you knowing about it
+5- When you solve the same problem that your colleagues have solved before. Note that, you may or may not find out about this!
+6- When you find debugging production difficult due to different versions of local gems and apps
 
-If your answer to all or some of the questions above is yes, I have a
-good news for you: Proper documentation can definitely make a big
-improvement.
+Proper documentation can definitely make a big improvement in all those situations.
 
-##How can this help me##
+##How can documentation help me##
 
 - production debugging issue: shows all docs and source codes related to
   gems and apps that are currently in production. easier to debug prod
