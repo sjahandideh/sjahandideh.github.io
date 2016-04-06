@@ -167,6 +167,7 @@
 
 .page-heading {
     font-size: 20px;
+    text-align: center;
 }
 
 .post-list {
@@ -195,6 +196,7 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    text-align: center;
 }
 
 .post-title {
@@ -207,11 +209,19 @@
     }
 }
 
+.post-subtitle {
+}
+
 .post-content {
     margin-bottom: $spacing-unit;
 
+    h1 {
+        color: $grey-color;
+    }
+
     h2 {
         font-size: 32px;
+        color: $grey-color;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -220,6 +230,7 @@
 
     h3 {
         font-size: 26px;
+        color: $grey-color;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -228,9 +239,21 @@
 
     h4 {
         font-size: 20px;
+        color: $grey-color;
 
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    p {
+      text-align: justify;
+
+      img {
+        @extend .img-rounded;
+        display: block;
+        margin: 30px auto;
+        max-width: 400px;
+      }
     }
 }
