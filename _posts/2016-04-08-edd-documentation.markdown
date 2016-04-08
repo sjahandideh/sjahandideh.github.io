@@ -7,7 +7,7 @@ tags: Documentation
 ---
 
 This is the second post in the series of Empathy Driven Development posts.
-In the first one which you can find [here](http://sjahandideh.github.io/2015/03/08/edd.markdown),
+In the first one which you can find [here](http://sjahandideh.github.io/2016/03/08/edd.html),
 I gave a thorough explanation of EDD and why I intended to write about it.
 In this post, I focus on Documentation which is by nature one of the products of Empathy Driven Development.
 

@@ -35,5 +35,5 @@ going to read, learn, maintain or use our code. Note that Empathy Driven Develop
 that I invented but I intend to look into it in these series from my point of view, my experience
 and concerns.
 
-[Documentation](http://sjahandideh.github.io/2015/03/08/edd-documentation.markdown) is the first in this series. I hope you enjoy it and help
+[Documentation](http://sjahandideh.github.io/2016/04/08/edd-documentation.html) is the first in this series. I hope you enjoy it and help
 me spread the care and empathy to this amazing community and even further.
