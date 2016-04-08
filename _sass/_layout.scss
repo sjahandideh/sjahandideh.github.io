@@ -187,6 +187,12 @@
 .post-link {
     display: block;
     font-size: 24px;
+    &:link {
+      color: $text-color;
+    }
+    &:visited, &:hover, &:active {
+      color: $grey-color;
+    }
 }
 
 
