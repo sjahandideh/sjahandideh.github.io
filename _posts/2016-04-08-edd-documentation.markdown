@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Documentation"
-subtitle: "EDD series"
+subtitle: "Code with care!"
 date:  "2016-04-08 00:00 UTC"
 tags: Documentation
 ---
 
-This is the second post in the series of Empathy Driven Development posts.
+This is the second post in the series of "Code with care" posts.
 In the first one which you can find [here](http://sjahandideh.github.io/2016/03/08/edd.html),
 I gave a thorough explanation of EDD and why I intended to write about it.
 In this post, I focus on Documentation which is by nature one of the products of Empathy Driven Development.
@@ -167,4 +167,5 @@ EDD is all about acknowledging that third person. By thoroughly and properly doc
 you are creating a permanent communication framework with your future self, your teammates and in general,
 with that imaginary less-intelligent third person who will read and maintain your code. You are explaining
 to them why you made that decision at the time and how to use it. You are putting yourself in their shoes.
-Well done!
+Well done.
+Let's all Code we care!

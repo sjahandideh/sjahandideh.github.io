@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Empathy Driven Development"
-subtitle: "EDD series"
+subtitle: "Code with care!"
 date:  "2016-03-08 00:00 UTC"
 tags: EDD
 ---
@@ -32,8 +32,8 @@ designs and be very descriptive when you write a piece of code.
 My plan is to create a series of blog posts that focus on each aspect
 of coding with empathy in mind which means coding with care about others who are
 going to read, learn, maintain or use our code. Note that Empathy Driven Development is not something
-that I invented but I intend to look into it in these series from my point of view, my experience
-and concerns.
+that I invented but I intend to look into it in these series from my point of view, my experience and concerns.
 
 [Documentation](http://sjahandideh.github.io/2016/04/08/edd-documentation.html) is the first in this series. I hope you enjoy it and help
 me spread the care and empathy to this amazing community and even further.
+Let's all Code we care!
