@@ -6,34 +6,17 @@ date:  "2016-03-08 00:00 UTC"
 tags: EDD
 ---
 
-A while a go, I gave a lightning talk about "Programming for a less
-intelligent person". I don't think that talk went very well and the reason was that I couldn't
-trully convey what I meant by that and frankly the title was a bit mean. However, this topic has been on my
-mind for a long time and I finally found a better way to explain what I really mean
-by it.
+A while a go, I gave a lightning talk about "Programming for a less intelligent person".
+I don't think that talk went very well and the reason was that I couldn't trully convey what I meant by that and frankly the title was a bit mean. However, this topic has been on my mind for a long time and I finally found a better way to explain what I really mean by it.
 
-Before I start there are a few things you should know about me. I have an average or a bit above average IQ and a reasonable knowledge of
-programming and design patterns. I have been a programmer for some years but I have mostly worked on private code bases that
-belonged to a company and not open source. I have been the person who maintains, refactors and cleans up other people's
-good and bad design decisions. The person who quietly sends people love for creating simple, readable code or
-curses for creating unnecessary complications for a simple problem.
+Before I start there are a few things you should know about me. I have an average or a bit above average IQ and a reasonable knowledge of programming and design patterns. I have been a programmer for some years but I have mostly worked on private code bases that belonged to a company and not open source. I have been the person who maintains, refactors and cleans up other people's good and bad design decisions. The person who quietly sends people love for creating simple, readable code or curses for creating unnecessary complications for a simple problem.
 
-Regardless of this person being a literal or conceptual example of
-myself, this is most likely the person who is going to read and maintain
-your code and not yourself. unless of course, you sign a contract that lets the employer kill your puppy(or
-kitten) if you resign!
+Regardless of this person being a literal or conceptual example of myself, this is most likely the person who is going to read and maintain your code and not yourself. unless of course, you sign a contract that lets the employer kill your puppy(or kitten) if you resign!
 
-So, I started thinking about the concept of "programming for someone
-else". Somebody who is figuratively less intelligent than you are. Now,
-this does not mean that the next person is actually less intelligent or
-less knowledgeable, it only means that you try to come up with simple
-designs and be very descriptive when you write a piece of code.
+So, I started thinking about the concept of "programming for someone else". Somebody who is figuratively less intelligent than you are. Now, this does not mean that the next person is actually less intelligent or less knowledgeable, it only means that you try to come up with simple designs and be very descriptive when you write a piece of code.
 
-My plan is to create a series of blog posts that focus on each aspect
-of coding with empathy in mind which means coding with care about others who are
-going to read, learn, maintain or use our code. Note that Empathy Driven Development is not something
-that I invented but I intend to look into it in these series from my point of view, my experience and concerns.
+My plan is to create a series of blog posts that focus on each aspect of coding with empathy in mind which means coding with care about others who are going to read, learn, maintain or use our code. Note that Empathy Driven Development is not something that I invented but I intend to look into it in these series from my point of view, my experience and concerns.
 
-[Documentation](http://sjahandideh.github.io/2016/04/08/edd-documentation.html) is the first in this series. I hope you enjoy it and help
-me spread the care and empathy to this amazing community and even further.
-Let's all Code we care!
+[Documentation](http://sjahandideh.github.io/2016/04/08/edd-documentation.html) is the first in this series. I hope you enjoy it and help me spread the care and empathy to this amazing community and even further.
+
+**Let's all code with care!**
