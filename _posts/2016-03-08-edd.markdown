@@ -20,3 +20,5 @@ My plan is to create a series of blog posts that focus on each aspect of coding 
 [Documentation](http://sjahandideh.github.io/2016/04/08/edd-documentation.html) is the first in this series. I hope you enjoy it and help me spread the care and empathy to this amazing community and even further.
 
 **Let's all code with care!**
+
+PS. I have to thank my dear friend Corinne for her time and great feedback
