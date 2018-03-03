@@ -7,7 +7,7 @@ tags: underscore, underscorejs, javascript, opensource
 ---
 
 In this post, I dive into the codebase of
-**[Underscorejs](http://underscorejs.org/)** to understand its structure, design patterns and how it works overal.
+**[Underscorejs](http://underscorejs.org/)** to understand its structure, design patterns and how it works overall.
 
 My aim is to share my learnings for three main reasons:
 1. to help reduce the daunting feeling of reading code
@@ -16,28 +16,29 @@ My aim is to share my learnings for three main reasons:
    extremely helpful if you like to become a better develper and/or
    contribute to OpenSource yourself.
 
-# Underscorejs
+## Introduction
 
-   According to their website, [Underscorejs](http://underscorejs.org/) is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects. It’s the answer to the question: “If I sit down in front of a blank HTML page, and want to start being productive immediately, what do I need?”
+According to their website, [Underscorejs](http://underscorejs.org/) is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects. It’s the answer to the question: “If I sit down in front of a blank HTML page, and want to start being productive immediately, what do I need?”
 
-  If you haven't already, it's very easy to use. You can simply put it
-  as a script inside your html page and access to all those utility
-  methods by typing \_ in your browser console.
+If you haven't already, it's very easy to use. You can simply put it
+as a script inside your html page and access to all those utility
+methods by typing \_ in your browser console.
 
-# Overal structure
+The version that I'm analysing in this post is **version 1.8.3**
+which is the latest version at this time.
 
-   The version that I'm analysing in this post is **version 1.8.3**
-   which is the latest version at this time.
+To study the codebase, I simply go to the [Underscorejs github repository](https://github.com/jashkenas/underscore/blob/master/underscore.js) and scan through the code. I also save a copy of this file locally so that I can put a `debugger` or `console.log` wherever I need, in order to learn and play around with the code.
 
-   To study the codebase, I simply go to the [Underscorejs github repository](https://github.com/jashkenas/underscore/blob/master/underscore.js) and scan through the code. I also save a copy of this file locally so that I can put a `debugger` or `console.log` wherever I need, in order to learn and play around with the code.
+Note that I won't get into the details of methods. That's something
+you can easily figure out by checking
+[Underscorejs documentaion](http://underscorejs.org/docs/underscore.html).
 
-   Note that I won't get into the details of methods. That's something
-   you can easily figure out by checking
-   [Underscorejs documentaion](http://underscorejs.org/docs/underscore.html).
-
-   What I mainly focus here is the way Underscore is designed and structured.
-   By knowing this, you can simply examine the code, find things and
-   understand how they are connected together.
+The main focus of this post is the way Underscore is designed and structured.
+By knowing this, you can simply examine the code, find things and
+understand how they are connected together. Also, some or all or these
+patterns may be used or even come from elsewhere. That is not the
+purpose of this post. We are simply digging into the sourcecode to find
+interesting stuff.
 
 Now if you are still here, let's dive in!
 
@@ -258,7 +259,7 @@ _.printName(harry); // -> 'Name: Harry Potter'
 _.printAge(harry);  // -> 'Age: 30'
 ```
 
-In the sample code above, both public functions \_.alertAge and
+In the sample code above, both public functions \_.printAge and
 \_.printName call private function say. However they send different
 functions to say as their msgFunc. When calling say, only the reference
 to that method (calculateAge and getFullName) will be passed. This means
