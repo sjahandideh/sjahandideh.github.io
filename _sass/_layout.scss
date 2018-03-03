@@ -216,6 +216,9 @@
 }
 
 .post-subtitle {
+    color: $grey-color;
+    font-size: 22px;
+    font-style: italic;
 }
 
 .post-content {
@@ -262,4 +265,8 @@
         max-width: 400px;
       }
     }
+}
+
+.highlight {
+  font-size: 14px;
 }
