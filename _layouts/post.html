@@ -4,6 +4,10 @@ layout: default
 <div class="post">
 
   <header class="post-header">
+    {%if page.img %}
+      <img src="/assets/{{ page.img }}" />
+    {% endif %}
+
     <h1 class="post-title">{{ page.title }}</h1>
     <h3 class="post-subtitle">{{ page.subtitle }}</h3>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>

@@ -2,6 +2,7 @@
 layout: post
 title: "Inside Underscorejs"
 subtitle: "Empathy Driven Learning: Exploring, learning and rewriting opensource JavaScript libraries"
+img: "laptop-heart.png"
 date:  "2018-03-02 00:00 UTC"
 tags: underscore, underscorejs, javascript, opensource
 ---
